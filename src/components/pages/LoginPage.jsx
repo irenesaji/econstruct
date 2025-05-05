@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { HardHat, Mail, Lock, Eye, EyeOff } from 'lucide-react';
-import Button from '../components/ui/Button';
-import { useAuth } from '../contexts/AuthContext';
+import Button from '../ui/Button';
+import { useAuth } from '../context/AuthContext';
 
 const LoginPage = () => {
   const [isLogin, setIsLogin] = useState(true);

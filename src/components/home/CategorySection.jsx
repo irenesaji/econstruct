@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight } from 'lucide-react';
-import { categoryNames } from '../../types'; // Assumes this is just an object, not using TS types
+import { categoryNames } from '../../components/types'; // Assumes this is just an object, not using TS types
 
 const CategoryCard = ({ category, title, imageUrl }) => {
   return (

@@ -4,8 +4,8 @@ import Card from '../ui/Card';
 import Rating from '../ui/Rating';
 import { ShoppingCart } from 'lucide-react';
 import Button from '../ui/Button';
-import { useCart } from '../../contexts/CartContext';
-import { categoryNames } from '../../types'; // assuming it's a plain object
+import { useCart } from '../../components/context/CartContext';
+import { categoryNames } from '../../components/types'; // assuming it's a plain object
 
 const ProductCard = ({ product }) => {
   const { addToCart } = useCart();

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { products } from '../data/products';
-import ProductCard from '../components/products/ProductCard';
+import ProductCard from '../products/ProductCard';
 import { Category, categoryNames } from '../types';
 import { SlidersHorizontal, X } from 'lucide-react';
-import Button from '../components/ui/Button';
+import Button from '../ui/Button';
 
 const ProductsPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();

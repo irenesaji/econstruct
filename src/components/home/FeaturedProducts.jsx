@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { products } from '../../data/products';
+import { products } from '../../components/data/products';
 import Card from '../ui/Card';
 import Rating from '../ui/Rating';
 import { ShoppingCart } from 'lucide-react';
 import Button from '../ui/Button';
-import { useCart } from '../../contexts/CartContext';
-import { categoryNames } from '../../types'; // Assumed to be a JS object
+import { useCart } from '../../components/context/CartContext';
+import { categoryNames } from '../../components/types'; // Assumed to be a JS object
 
 const FeaturedProducts = () => {
   const { addToCart } = useCart();

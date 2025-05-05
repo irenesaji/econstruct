@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ShoppingCart, Menu, X, Search, User, HardHat } from 'lucide-react';
-import { useAuth } from '../../contexts/AuthContext';
-import { useCart } from '../../contexts/CartContext';
+import { useAuth } from '../../components/context/AuthContext';
+import { useCart } from '../../components/context/CartContext';
 import Button from '../ui/Button';
 
 const Navbar = () => {

@@ -1,8 +1,8 @@
 import React from 'react';
 import { vendors } from '../data/vendors';
-import Card from '../components/ui/Card';
-import Rating from '../components/ui/Rating';
-import Button from '../components/ui/Button';
+import Card from '../ui/Card';
+import Rating from '../ui/Rating';
+import Button from '../ui/Button';
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Store } from 'lucide-react';
 import { categoryNames } from '../types';

@@ -2,14 +2,14 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
-import HomePage from './pages/HomePage';
-import ProductsPage from './pages/ProductsPage';
-import ProductDetailPage from './pages/ProductDetailPage';
-import VendorsPage from './pages/VendorsPage';
-import CartPage from './pages/CartPage';
-import LoginPage from './pages/LoginPage';
-import { CartProvider } from './contexts/CartContext';
-import { AuthProvider } from './contexts/AuthContext';
+import HomePage from './components/pages/HomePage';
+import ProductsPage from './components/pages/ProductsPage';
+import ProductDetailPage from './components/pages/ProductDetailPage';
+import VendorsPage from './components/pages/VendorsPage';
+import CartPage from './components/pages/CartPage';
+import LoginPage from './components/pages/LoginPage';
+import { CartProvider } from './components/context/CartContext';
+import { AuthProvider } from './components/context/AuthContext';
 
 function App() {
   return (

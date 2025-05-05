@@ -1,8 +1,8 @@
 import React from 'react';
-import HeroSection from '../components/home/HeroSection';
-import CategorySection from '../components/home/CategorySection';
-import FeaturedProducts from '../components/home/FeaturedProducts';
-import TestimonialsSection from '../components/home/TestimonialsSection';
+import HeroSection from '../home/HeroSection';
+import CategorySection from '../home/CategorySection';
+import FeaturedProducts from '../home/FeaturedProducts';
+import TestimonialsSection from '../home/TestimonialsSection';
 import { Truck, Clock, CreditCard, ShieldCheck } from 'lucide-react';
 
 const HomePage = () => {

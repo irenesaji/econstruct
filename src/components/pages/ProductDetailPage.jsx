@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { products } from '../data/products';
 import { vendors } from '../data/vendors';
-import Rating from '../components/ui/Rating';
-import Button from '../components/ui/Button';
+import Rating from '../ui/Rating';
+import Button from '../ui/Button';
 import { ShoppingCart, TruckIcon, ShieldCheck, Star, Store } from 'lucide-react';
-import { useCart } from '../contexts/CartContext';
+import { useCart } from '../context/CartContext';
 import { categoryNames } from '../types';
 
 const ProductDetailPage = () => {
